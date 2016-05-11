@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'notes/index'
+  #resources :notes
+  #get 'notes/index'
 
   root 'notes#index'
   # The priority is based upon order of creation: first created -> highest priority.
